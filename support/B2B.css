@@ -1,0 +1,573 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(244, 247, 250);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.logo {
+    /* border: 1px solid green; */
+    padding:0;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+/* .logo img{
+    width: 50px;
+    height: 70px;
+} */
+.navlist ul{
+display: flex;
+/* border: 1px solid yellowgreen; */
+margin: 0;
+}
+.navlist li{
+    /* border: 1px solid black; */
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+.navlist li a{
+text-decoration: none;
+color: black;
+padding: 10px;
+    border-radius: 20px;
+}
+.navlist li a:hover{
+    color: white;
+    background-color: rgb(240, 132, 1);
+}
+/* ----------------------banner------------------- */
+.banner{
+    /* border: 1px solid fuchsia; */
+background-color:  rgb(244, 247, 250);
+            padding: 1rem;
+}
+.bannerContainer{
+        /* border: 2px solid rgb(255, 0, 0); */
+        display: flex;
+         justify-content: space-between;
+            padding: 3rem;
+}
+.leftbanner{
+        /* border: 1px solid rgb(16, 255, 47); */
+        padding: 20px;
+        width: 50%;
+        font-family: 'Mukta', sans-serif;
+}
+.leftbanner h1{
+    font-size:60px;
+}
+.leftbanner p{
+    font-size: 20px;
+    font-weight: 50;
+    color: rgb(75, 72, 72);
+}
+.rightbanner{
+        /* border: 1px solid rgb(44, 21, 248); */
+        margin-right: 80px;
+}
+.rightbanner img{
+    width: 350px;
+    height: 350px;
+}
+.banner button{
+    padding: 15px;
+    border: 1px solid blue;
+    color: blue;
+    font-size: 15px;
+    background:none;
+    font-weight: lighter;
+}
+.contact-btn{
+    border-radius: 10px;
+}
+
+.contact-btn:hover {
+    color: rgb(244, 244, 246);
+    background-color: rgb(85, 85, 196);
+    transition: ease-in;
+}
+
+/* -------why choose us---------------------- */
+.whychooseBanner{
+    padding: 2rem;
+    /* border: 2px solid rgb(215, 123, 10); */
+    background-color: rgb(86, 86, 147);
+color: white;
+font-family: 'Inter', sans-serif;
+}
+.whychooseBanner2{
+    padding: 2rem;
+        /* border: 2px solid rgb(105, 58, 249); */
+        padding-left: 4rem;
+}
+.whychooseHeader{
+    width: 80%;
+    padding-left: 10%;
+    font-size: 20px;
+        /* border: 1px solid rgb(241, 23, 136); */
+}
+.innerwhy{
+    display: flex;
+    width: 80%;
+    margin-left: 20%;
+        /* border: 1px solid rgb(23, 241, 96); */
+    }
+
+.content{
+    width: 50%;
+            /* border: 1px solid rgb(230, 246, 1); */
+             padding: 20px;
+}
+
+
+/* -------------- SERVICES------------------------- */
+
+.industries{
+      /* border: 2px solid rgb(25, 26, 18); */
+      padding: 3rem;
+      font-style: italic;
+font-family: 'Inter', sans-serif;
+}
+.indusHeader{
+    /* border: 2px solid rgb(100, 9, 175); */
+    font-size: 50px;
+    text-align: center;
+}
+.indusBox{
+      /* border: 2px solid rgb(11, 231, 29); */
+      padding: 2rem;
+}
+.boxrow1{
+        /* border: 2px solid rgb(231, 183, 11); */
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+}
+.boxrow2{
+      /* border: 2px solid rgb(231, 11, 147); */
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+}
+.box1 , .box2{
+    background-color: rgb(255, 239, 219);
+    width: 20%;
+        display: flex;
+        margin: 0 30px;
+        padding: 1rem;
+        border-radius: 30px;
+        box-shadow: 2px 7px 10px #999999;
+        justify-content: space-between;
+        align-items: center;
+}
+.box-icon{
+        /* border: 2px solid rgb(219, 7, 7); */
+        justify-content: center;
+            /* font-size: 70px; */
+            align-items: center;
+            width: 70%;
+            text-align: center;
+}
+.box-icon img{
+    width: 60%;
+    height: 60%;
+    
+}
+.boxname{
+            /* border: 2px solid rgb(12, 40, 2); */
+            /* width: 50%; */
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+}
+/* ---------------feature brands----------------- */
+
+.partnerBox{
+        /* border: 1px solid rgb(42, 40, 40); */
+        padding: 4rem;
+}
+.partnerBox hr{
+    width: 70%;
+    color: black;
+}
+.partnerHeading{
+        /* border: 1px solid rgb(235, 15, 15); */
+        text-align: center;
+        color: rgb(243, 98, 46);
+        font-size: 30px;
+}
+.B2BHeading{
+        /* border: 1px solid rgb(235, 15, 15); */
+        text-align: center;
+        color: rgb(70, 67, 65);
+        font-size: 30px;
+}
+.brandLogo{
+            /* border: 1px solid rgb(28, 50, 247); */
+            /* background-color: aliceblue; */
+        padding: 4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+}
+.brandLogo2{
+            /* border: 1px solid rgb(28, 50, 247); */
+            /* background-color: aliceblue; */
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+}
+.brandLogo img{
+    width: 80%;
+}
+.brandLogo2 img{
+    width: 90%;
+}
+
+
+
+
+
+/* ------------------------our presence------------------------ */
+.presenceBox{
+    /* border: 1px solid firebrick; */
+    background-color: rgb(86, 86, 147);
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+.map{
+    /* border: 1px solid rgb(7, 225, 65); */
+}
+.presenceContent{
+        /* border: 1px solid rgb(16, 19, 5); */
+        color: white;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.presenceContent h1{
+  font-size: 70px;
+   
+}
+.presenceContent p{
+  font-size: 20px;
+  text-align: center;
+   
+}
+
+
+/* -------------------footer----------------------- */
+.footer{
+background-color: #3a3a3a;
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+color: white;
+}
+.footerLogo{
+    /* border: 2px solid fuchsia; */
+
+}
+.footerContent{
+    /* border: 2px solid green; */
+    display: flex;
+}
+.footerContent1{
+        /* border: 2px solid rgb(246, 16, 12); */
+        padding: 2rem;
+}
+.footerContent1 ul li{
+  list-style:none;
+  margin-bottom: 10px;
+  
+}
+.footerContent1 ul li a{
+  text-decoration: none;  
+  color: white;
+}
+.footerContent2{
+        /* border: 2px solid rgb(17, 25, 251); */
+        padding: 2rem;
+        text-align: center;
+}
+.footerContent2 ul li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+.footerContent2 ul li a{
+text-decoration: none;
+color: white;
+}
+.footerContent2 ul li a:hover ,.footerContent1 ul li a:hover{
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------MEDIA QUERY------------------------------- */
+
+/* navbar */
+@media screen and (max-width: 500px) {
+
+    .navbar{
+    display: block;
+    padding: 0;
+}
+.logo {
+   
+    margin: 0;
+   
+}
+.navlist ul{
+    display: block;
+    padding: 0;
+}
+.navlist li {
+   padding: 0;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.navlist li:hover {
+    color: white;
+    background-color: rgb(240, 132, 1);
+}
+
+/*------------- banner------------------------------ */
+
+.banner {
+    padding: 10px;
+}
+
+.bannerContainer {
+        display: block;
+    padding: 0;
+}
+
+.leftbanner {
+    /* border: 1px solid rgb(16, 255, 47); */
+    padding: 0px;
+    width: 100%;
+}
+
+.leftbanner h1 {
+    font-size: 40px;
+}
+
+.leftbanner p {
+    font-size: 15px;
+}
+
+.rightbanner {
+    /* border: 1px solid rgb(44, 21, 248); */
+    margin-right: 0px;
+}
+
+.rightbanner img {
+    width: 300px;
+    height: 300px;
+}
+.whychooseBanner{
+
+}
+
+
+/*------------------------------------ choose why------------------- */
+.whychooseBanner {
+    padding: 10px;
+    /* border: 2px solid rgb(215, 123, 10); */
+    background-color: rgb(86, 86, 147);
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.whychooseBanner2 {
+    padding: 0rem;
+    /* border: 2px solid rgb(9, 7, 16); */
+}
+
+.whychooseHeader {
+    /* width: 100%; */
+    padding: 0;
+    font-size: 20px;
+    /* border: 1px solid rgb(241, 23, 136); */
+}
+.innerwhy{
+    display: block;
+    width: 100%;
+    margin:  0;
+}
+.content {
+    width: 100%;
+    /* border: 1px solid rgb(230, 246, 1); */
+padding: 0;
+/* margin: 10px; */
+}
+
+/*  services  MEDIA QUERY------------------ */
+    .industries {
+        /* border: 2px solid rgb(25, 26, 18); */
+        padding: 1rem;
+
+    }
+
+    .indusHeader {
+        /* border: 2px solid rgb(100, 9, 175); */
+        font-size: 30px;
+        text-align: start;
+    }
+
+    .indusBox {
+        /* border: 2px solid rgb(11, 231, 29); */
+        padding: 0rem;
+    }
+
+    .boxrow1 {
+        /* border: 2px solid rgb(231, 183, 11); */
+        display: block;
+        padding: 0rem;
+    }
+
+    .boxrow2 {
+        /* border: 2px solid rgb(231, 11, 147); */
+        display: block;
+        padding: 0rem;
+    }
+
+    .box1,
+    .box2 {
+        background-color: rgb(255, 239, 219);
+        width: 60%;
+        margin-bottom: 20px;
+
+    }
+
+    .box-icon {
+        /* border: 2px solid rgb(219, 7, 7); */
+
+        width: 70%;
+    }
+
+    .box-icon img {
+        width: 60%;
+        height: 50%;
+
+    }
+
+    .boxname {
+        /* border: 2px solid rgb(12, 40, 2); */
+
+    }
+    /* ----------------featured brands----------------- */
+.partnerBox {
+    padding: 0;
+}
+
+.partnerBox hr {
+    width: 70%;
+    color: black;
+}
+
+.partnerHeading {
+    /* border: 1px solid rgb(235, 15, 15); */
+    text-align: center;
+    color: rgb(243, 98, 46);
+    font-size: 20px;
+}
+
+.B2BHeading {
+    /* border: 1px solid rgb(235, 15, 15); */
+    text-align: center;
+    color: rgb(70, 67, 65);
+    font-size: 30px;
+}
+
+.brandLogo {
+    /* border: 1px solid rgb(28, 50, 247); */
+    /* background-color: aliceblue; */
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* ------------------------our presence------------------------ */
+.presenceBox {
+    /* border: 1px solid firebrick; */
+    background-color: rgb(86, 86, 147);
+    display: block;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.map {
+    /* border: 1px solid rgb(7, 225, 65); */
+}
+.map img{
+    width: 70%;
+}
+
+.presenceContent {
+    /* border: 1px solid rgb(16, 19, 5); */
+    color: white;
+    width: 100%;
+    
+}
+.presenceContent h1 {
+    font-size: 50px;
+
+}
+
+.presenceContent p {
+    font-size: 10px;
+
+}
+/* ------------ b2b clients-------------------------------- */
+.B2BHeading h1{
+    font-size: 40px;
+}
+
+/* -------------------footer----------------------- */
+.footer {
+    background-color: #3a3a3a;
+    display: block;
+    justify-content: space-between;
+    padding: 0;
+    color: white;
+}
+
+
+
+.footerContent {
+    display: block;
+    text-align: center;
+}
+
+.footerContent1 {
+    padding: 0;
+}
+
+.footerContent2 {
+    padding: 0;
+    text-align: center;
+}
+
+}
+

@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------navbar---------------------- */
+nav{
+    /* border: 2px solid green; */
+    padding: 1rem;
+    margin: 0 10%;
+}
+.navLogo{
+      /* border: 2px solid rgb(253, 7, 7); */
+  
+}
+.navLogo img{
+    width: 130px;
+}
+.navcontent{
+         /* border: 2px solid rgb(32, 253, 7); */
+ display: flex;
+ justify-content: space-between;
+ /* padding: 0 2rem; */
+
+}
+.navLinks{
+            /* background-color: antiquewhite; */
+ display: flex;
+ padding: 0;
+}
+.navLinks ul {
+display: flex;
+justify-content: flex-start;
+} 
+.navLinks ul li{
+    list-style: none;
+} 
+.navLinks ul li a{
+text-decoration: none;
+margin: 0 10px;
+color: gray;
+padding: 10px;
+border-radius: 10px;
+} 
+.faq{
+    background-color: rgb(46, 138, 184);
+}
+.navLinks ul li .faq{ 
+    color: white;
+}
+.navLinks ul li a:hover{
+  background-color: gainsboro;
+} 
+/* .navLinks ul li a:visited{
+  background-color: rgb(81, 81, 172);
+  color: white;
+}  */
+.others{
+             /* border: 2px solid rgb(253, 7, 151); */
+             /* background-color: aqua; */
+   
+}
+.others input{
+    padding: 10px;
+    border: 1px solid gainsboro;
+    color:gainsboro ;
+    border-radius: 5px;
+}
+/* --------------------knowlegde bas----------------------- */
+
+.container{
+    /* border: 2px solid firebrick; */
+    padding: 10px 10%;
+    
+}
+.container p{
+    text-align: start;
+    margin: 15px;
+}
+.container1{
+        /* border: 2px solid rgb(34, 63, 178); */
+  display: flex;
+}
+.container2{
+        /* border: 2px solid rgb(34, 63, 178); */
+  display: flex;
+  justify-content: start;
+}
+.loginBox{
+    border: 1px solid gainsboro;
+    width: 20%;
+    border-radius: 10px;
+    /* height: 90%; */
+}
+.loginBox2{
+    border: 1px solid gainsboro;
+    width: 18%;
+    color: gray;
+height: 50%;
+padding: 10px;
+border-radius: 10px;
+    
+}
+.loginBox2 p{
+   font-size: 10px;
+}
+.loginBox2 ul {
+    justify-content: start;
+    padding: 0;
+}
+.loginBox2 ul li{
+    list-style: none;
+    /* justify-content: space-between; */
+    margin: 10px 0;
+    /* display: flex; */
+}
+.loginBox2 ul li a{
+text-decoration: none;
+color: gray;
+}
+.loginBox form input{
+    padding: 7px;
+    border: 1px solid gainsboro;
+    margin: 20px;
+}
+.loginBox form {
+ margin-left: 10px;
+}
+.loginBox form  button{
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(46, 138, 184);
+    width: 70%;
+    border-radius: 5px;
+}
+.loginBox form a{
+  text-decoration: none;
+  text-align: center;
+}
+.loginBox form a:hover{
+  text-decoration: underline;
+}
+.knowledgeBase{
+       /* background-color: aliceblue; */
+/* border: 2px solid fuchsia; */
+padding: 0 20px;
+}
+.knowledgeBase2{
+       /* background-color: aliceblue; */
+       justify-content: space;
+   width: 60%;
+}
+.knowledgeBase h1{
+    text-align: start;
+    font-weight: 100;
+    color: gray;
+}
+.SubknowledgeBase{
+ /* border: 2px solid rgb(0, 255, 55); */
+        display: flex;
+        justify-content: space-between;
+
+}
+.SubknowledgeBase2{
+ /* border: 2px solid rgb(0, 255, 55); */
+        display: flex;
+        /* justify-content: space-between; */
+
+}
+.knowledgeBase1{
+    /* border: 2px solid black; */
+    margin: 5px;
+    
+}
+.knowledgeBase2{
+    /* border: 2px solid black; */
+    padding: 10px;
+    width: 70%;
+    
+}
+.knowledgeBase1 h3{
+   font-weight:100;
+}
+.knowledgeBase1 ul{
+   padding: 0;
+}
+.knowledgeBase1 li{
+   list-style: none;    
+   margin: 10px 0;
+   font-weight: 100;
+
+}
+.knowledgeBase1 li a{
+text-decoration: none;
+   color: rgb(34, 145, 201);
+
+}
+.knowledgeBase2 h3{
+   font-weight:100;
+}
+.knowledgeBase2 ul{
+   padding: 0;
+}
+.knowledgeBase2 li{
+   list-style:disc;    
+   margin: 10px 0;
+  font-weight: 500;
+
+}
+.knowledgeBase2 li a{
+text-decoration: none;
+   color: rgb(34, 145, 201);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================MEDIA QUERY----------------------- */
+
+@media screen and (max-width: 500px) {
+    nav{
+    padding: 0;
+    margin: 0;
+}
+.navcontent{
+    display: block;
+}
+.navLinks ul{
+    display: block;
+}
+
+/* ----------------------knowledgebase--------------------- */
+.container{
+    padding: 0;
+    
+}
+.container1{
+display: block;    
+
+}
+.loginBox{
+    width: 100%;
+}
+
+.SubknowledgeBase{
+    display: block;
+}
+.container2{
+display: block;    
+
+}
+.loginBox2{
+    width: 100%;
+}
+
+.SubknowledgeBase2{
+    display: block;
+}
+
+
+}

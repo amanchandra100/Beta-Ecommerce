@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* ------------------navbar---------------------- */
+nav{
+    /* border: 2px solid green; */
+    padding: 1rem;
+    margin: 0 10%;
+}
+.navLogo{
+      /* border: 2px solid rgb(253, 7, 7); */
+  
+}
+.navLogo img{
+    width: 130px;
+}
+.navcontent{
+         /* border: 2px solid rgb(32, 253, 7); */
+ display: flex;
+ justify-content: space-between;
+ /* padding: 0 2rem; */
+
+}
+.navLinks{
+            /* background-color: antiquewhite; */
+ display: flex;
+ padding: 0;
+}
+.navLinks ul {
+display: flex;
+justify-content: flex-start;
+} 
+.navLinks ul li{
+    list-style: none;
+} 
+.navLinks ul li a{
+text-decoration: none;
+margin: 0 10px;
+color: gray;
+padding: 10px;
+border-radius: 10px;
+} 
+.home{
+    background-color: rgb(46, 138, 184);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 30px;
+}
+.navLinks ul li .home{ 
+    color: white;
+}
+.navLinks ul li a:hover{
+  background-color: gainsboro;
+} 
+/* ----------------------how can we help-------------- */
+
+.banner{
+    border: 1px solid rgb(215, 215, 215);
+    background-color: rgb(249, 249, 249);
+    padding: 4rem;
+}
+.banner p{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+.bannerForm{
+    /* border: 2px solid blue; */
+    justify-content: center;
+    text-align: center;
+}
+.bannerForm input{
+    padding: 1rem;
+    width: 30%;
+    font-size: 15px;
+    color: gainsboro;
+        border: 1px solid gainsboro;
+margin: 0;
+}
+.bannerForm button{
+    padding: 1rem;
+    border: 1px solid gainsboro;
+margin: 0;
+background:none;
+}
+.bannerForm button:hover{
+    background-color: rgb(246, 246, 246);
+}
+.boxes{
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.box{
+    border: 1px solid rgb(195, 195, 195);
+      padding: 1rem;
+      margin: 1rem;
+      border-radius: 10px;
+      background-color: white;
+        /* box-shadow: 5px 5px 2px #aaaaaa; */
+        width: 5%;
+
+}
+.box i{
+    font-size: 25px;
+}
+.box a{
+    color: rgb(152, 149, 149);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* --------------------knowlegde bas----------------------- */
+
+.container{
+    /* border: 2px solid firebrick; */
+    padding: 10px 9%;
+    display: flex;
+}
+.container p{
+    text-align: start;
+    margin: 15px;
+}
+.container1{
+        /* border: 2px solid rgb(34, 63, 178); */
+        width: 25%;
+}
+.container2{
+            /* border: 2px solid rgb(3, 194, 79); */
+   width: 70%;
+   padding: 10px;
+}
+.container2 h1{
+   color: rgb(186, 182, 182);
+   font-weight: 100;
+}
+.container2 p{
+    margin: 10px ;
+}
+.container2 .links input{
+ margin: 15px;
+}
+.container2-heading {
+    font-size: 20px;
+
+}
+.loginBox{
+    border: 1px solid gainsboro;
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    /* height: 90%; */
+}
+.container2-heading{
+    font-size: large;
+}
+.loginBox2{
+    border: 1px solid gainsboro;
+    width: 18%;
+    color: gray;
+height: 50%;
+padding: 10px;
+border-radius: 10px;
+    
+}
+.loginBox2 p{
+   font-size: 10px;
+}
+.loginBox2 ul {
+    justify-content: start;
+    padding: 0;
+}
+.loginBox2 ul li{
+    list-style: none;
+    /* justify-content: space-between; */
+    margin: 10px 0;
+    /* display: flex; */
+}
+.loginBox2 ul li a{
+text-decoration: none;
+color: gray;
+}
+.loginBox form input{
+    padding: 7px;
+    border: 1px solid gainsboro;
+    margin: 20px;
+}
+.loginBox form {
+ margin-left: 10px;
+}
+.loginBox form  button{
+    padding: 7px;
+    border: none;
+    color: white;
+    background-color: rgb(46, 138, 184);
+    width: 70%;
+    border-radius: 5px;
+}
+.loginBox form a{
+  text-decoration: none;
+  text-align: center;
+}
+.loginBox form a:hover{
+  text-decoration: underline;
+}
+.knowledgeBase{
+       /* background-color: aliceblue; */
+/* border: 2px solid fuchsia; */
+padding: 0 20px;
+}
+.knowledgeBase2{
+       /* background-color: aliceblue; */
+       justify-content: space;
+   width: 60%;
+}
+.knowledgeBase h1{
+    text-align: start;
+    font-weight: 100;
+    color: gray;
+}
+.SubknowledgeBase{
+ /* border: 2px solid rgb(0, 255, 55); */
+        display: flex;
+        justify-content: space-between;
+
+}
+.SubknowledgeBase2{
+ /* border: 2px solid rgb(0, 255, 55); */
+        display: flex;
+        /* justify-content: space-between; */
+
+}
+.knowledgeBase1{
+    /* border: 2px solid black; */
+    margin: 5px;
+    
+}
+.knowledgeBase2{
+    /* border: 2px solid black; */
+    padding: 10px;
+    width: 70%;
+    
+}
+.knowledgeBase1 h3{
+   font-weight:100;
+}
+.knowledgeBase1 ul{
+   padding: 0;
+}
+.knowledgeBase1 li{
+   list-style: none;    
+   margin: 10px 0;
+   font-weight: 100;
+
+}
+.knowledgeBase1 li a{
+text-decoration: none;
+   color: rgb(34, 145, 201);
+
+}
+.knowledgeBase2 h3{
+   font-weight:100;
+}
+.knowledgeBase2 ul{
+   padding: 0;
+}
+.knowledgeBase2 li{
+   list-style:disc;    
+   margin: 10px 0;
+  font-weight: 500;
+
+}
+.knowledgeBase2 li a{
+text-decoration: none;
+   color: rgb(34, 145, 201);
+}
+
+
+/* ------------------how can we help--------------- */
+@media screen and (max-width: 500px) {
+
+.boxes{
+    display: block;
+    padding: 0;
+}
+.box{
+    width: 80%;
+}
+.banner{
+    /* width: 80%; */
+    padding: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* ==============================MEDIA QUERY----------------------- */
+
+@media screen and (max-width: 500px) {
+    nav{
+    padding: 0;
+    margin: 0;
+}
+.navcontent{
+    display: block;
+}
+.navLinks ul{
+    display: block;
+    margin: 1rem 0;
+}
+.navLinks ul li{
+    margin: 1rem 0;
+}
+
+/* ----------------------knowledgebase--------------------- */
+.container{
+    padding: 0;
+    display: block;
+}
+
+.loginBox{
+    width: 100%;
+}
+.container1{
+    width: 100%;
+}
+
+.container2{
+display: block;  
+width: 100%;  
+
+}
+.loginBox2{
+    width: 100%;
+}
+
+.SubknowledgeBase2{
+    display: block;
+}
+
+
+}
