@@ -212,6 +212,7 @@ body{
     height: 20rem;
     width: 16.9rem;
     border-radius: 0rem 0rem 1rem 1rem;
+    box-shadow: 0px 5px 10px 2px gray;
 }
 .ser2{
     /* background-color: rgba(183, 253, 253, 0.512); */
@@ -222,7 +223,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px aqua solid;
+    /* border: 5px aqua solid; */
    
 }
 
@@ -244,23 +245,26 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  /* width: 1000px; */
-  /* height: 300px; */
+  width: auto;
+  height: auto;
   position: relative;
   margin: auto;
   /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 18rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+
+  /* padding-left: 18rem; */
 }
 
-/* .mySlides1{
+.mySlides1{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+}
 
 /* Caption text */
 .text12 {
@@ -269,7 +273,7 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
 }
 
@@ -280,6 +284,10 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+.dot11{
+    display: none;
 }
 
 /* The dots/bullets/indicators */
@@ -617,25 +625,46 @@ img {vertical-align: middle;}
 
 
 /* media query1---------- */
-@media(max-width: 300px){
-    *{
+@media screen and (max-width: 300px){
+    *{ 
+        
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
+        width: fit-content;
+       
+        /* border: 5px green solid; */
     }
     body{
-        padding-left: 15px;
-        width: 480px;
+       
+        /* width: 586px; */
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content:center ;
         align-items: center;
-        padding-right: 0rem;
-        /* padding: 0rem 0rem; */
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        margin: 0;
         margin-left: 0px;
         margin-right: 0rem;
         overflow-x: hidden;
+        /* border: 5px yellow solid;
+        background-color: yellow; */
     }
+
+   
+    /* div {
+    border: 5px red solid;
+}
+nav{
+    border: 5px pink solid;
+}
+footer{
+    border: 5px yellow solid;
+} */
     .nav1{
         flex-direction: column;
         padding: 0.5rem 0.5rem;  
@@ -681,7 +710,7 @@ img {vertical-align: middle;}
         justify-content: center;
     }
     .hr{
-        width: 100%;
+        width: 30rem;
         margin-left: 0px;
     }
     .vl{
@@ -724,7 +753,7 @@ img {vertical-align: middle;}
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-left: 9rem;
+        /* padding-left: 9rem; */
       }
       
     .ser-a{
@@ -732,6 +761,7 @@ img {vertical-align: middle;}
         width: 30rem;
         display: flex;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         padding: 0px;
         border-radius: 0.2rem;
@@ -754,16 +784,13 @@ img {vertical-align: middle;}
         /* display: flex;
         justify-content: space-evenly; */
     }
-    .searchbar{
-        width: 4rem;
-        padding-left: 20rem;
-        /* background-color: black; */
-    }
+   
     .form{
         display: flex;
         /* justify-content: center; */
-        padding-left: 2rem;
+        padding-left: 0rem;
         margin: 0;
+        width: auto;
 
     }
     .ip{
@@ -780,7 +807,7 @@ img {vertical-align: middle;}
     }
     .searchbar{
         margin-left: 0px;
-        padding-left: 0px;
+        padding-left: 15px;
         width: 30rem;
 
     }
@@ -846,13 +873,16 @@ img {vertical-align: middle;}
         box-shadow: 0.1rem 0.5rem 1rem 0.1rem gray;
     }
     .text{
-        width: 100%;
+        width: 17rem;
     }
     .img11{
         flex-direction: column;
         width: 30rem;
         height: 50rem;
         
+    }
+    .img112{
+        width: auto;
     }
     .foot{
         flex-direction: column;
@@ -884,7 +914,7 @@ img {vertical-align: middle;}
         margin-bottom: 3rem;
     } */
     .foot-con{
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
         width: 30rem;
         height: 5rem;
         display: flex;
@@ -905,7 +935,7 @@ img {vertical-align: middle;}
     .foot-links{
         /* margin-right: 6rem; */
         /* background-color: yellow; */
-        width: 100%;
+        width: 30rem;
         height: 3rem;
         padding-left: 5rem;
         /* margin-right: 7rem; */
@@ -917,36 +947,71 @@ img {vertical-align: middle;}
         flex-direction: column;
         justify-content: space-between;
         height: 67rem;
+        /* width: auto; */
     }
+   
     .end{
        width: 30rem;
        padding: 1rem;
        font-size: 0.8rem;
     }
+    .foot-p {
+        color: gray;
+        width: fit-content;
+    }
+    
+
+
 
 
 
 }
 
 
-/* media query2---------- */
-@media(max-width: 415px){
-    body{
+/* media query1---------- */
+@media screen and (min-width:301px) and (max-width: 600px){
+    *{ 
         
-        padding-left: 15px;
-        width: 480px;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: fit-content;
+       
+        /* border: 5px green solid; */
+    }
+    .left{
+        display: none;
+    }
+    body{
+       
+        /* width: 586px; */
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content:center ;
         align-items: center;
-        padding-right: 0px;
-        /* padding: 0rem 0rem; */
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        margin: 0;
         margin-left: 0px;
         margin-right: 0rem;
         overflow-x: hidden;
-        
+        /* border: 5px yellow solid;
+        background-color: yellow; */
     }
+
+   
+    /* div {
+    border: 5px red solid;
+}
+nav{
+    border: 5px pink solid;
+}
+footer{
+    border: 5px yellow solid;
+} */
     .nav1{
         flex-direction: column;
         padding: 0.5rem 0.5rem;  
@@ -992,7 +1057,7 @@ img {vertical-align: middle;}
         justify-content: center;
     }
     .hr{
-        width: 100%;
+        width: 30rem;
         margin-left: 0px;
     }
     .vl{
@@ -1018,21 +1083,36 @@ img {vertical-align: middle;}
     }  
     .ser2{
         width: 30rem;
+        height: 15rem;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0px;
-        /* background-color: aquamarine; */
+        border-radius: 2rem;
+
     }   
+    .slideshow-container {
+        /* width: 1000px; */
+        /* height: 300px; */
+        /* position: relative; */
+        /* margin: auto; */
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-left: 9rem; */
+      }
+      
     .ser-a{
         /* background-color: aqua; */
         width: 30rem;
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
         padding: 0px;
+        border-radius: 0.2rem;
+        box-sizing: border-box;
 
     }
     
@@ -1051,16 +1131,13 @@ img {vertical-align: middle;}
         /* display: flex;
         justify-content: space-evenly; */
     }
-    .searchbar{
-        width: 4rem;
-        padding-left: 20rem;
-        /* background-color: black; */
-    }
+   
     .form{
         display: flex;
         /* justify-content: center; */
-        padding-left: 2rem;
+        padding-left: 0rem;
         margin: 0;
+        width: auto;
 
     }
     .ip{
@@ -1077,7 +1154,7 @@ img {vertical-align: middle;}
     }
     .searchbar{
         margin-left: 0px;
-        padding-left: 0px;
+        padding-left: 15px;
         width: 30rem;
 
     }
@@ -1143,13 +1220,16 @@ img {vertical-align: middle;}
         box-shadow: 0.1rem 0.5rem 1rem 0.1rem gray;
     }
     .text{
-        width: 100%;
+        width: 17rem;
     }
     .img11{
         flex-direction: column;
         width: 30rem;
         height: 50rem;
         
+    }
+    .img112{
+        width: auto;
     }
     .foot{
         flex-direction: column;
@@ -1181,7 +1261,7 @@ img {vertical-align: middle;}
         margin-bottom: 3rem;
     } */
     .foot-con{
-        margin-left: 3rem;
+        /* margin-left: 3rem; */
         width: 30rem;
         height: 5rem;
         display: flex;
@@ -1202,7 +1282,7 @@ img {vertical-align: middle;}
     .foot-links{
         /* margin-right: 6rem; */
         /* background-color: yellow; */
-        width: 100%;
+        width: 30rem;
         height: 3rem;
         padding-left: 5rem;
         /* margin-right: 7rem; */
@@ -1214,15 +1294,78 @@ img {vertical-align: middle;}
         flex-direction: column;
         justify-content: space-between;
         height: 67rem;
+        /* width: auto; */
     }
+   
     .end{
        width: 30rem;
        padding: 1rem;
        font-size: 0.8rem;
     }
+    .foot-p {
+        color: gray;
+        width: fit-content;
+    }
+    
+
+
 
 
 
 }
 
+/* media query1---------- */
+@media screen and (min-width:601px) and (max-width: 1300px){
+    *{ 
+        
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: fit-content;
+       
+        /* border: 5px green solid; */
+    }
+    body{
+       
+        /* width: 586px; */
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        margin: 0;
+        margin-left: 0px;
+        margin-right: 0rem;
+        overflow-x: hidden;
+        /* border: 5px yellow solid;
+        background-color: yellow; */
+    }
+    .nav1{
+        width: 100%;
+    }
+    .robo-ser{
+        width: 90rem;
+    }
+    .img11{
+        width: 110rem;
+    }
+    .foot{
+        width: 110rem;
+    }
+    .end{
+        width: 110rem;
+    }
+   .form-sel{
+    width: 26.5rem;
+   }
+   .sch{
+    width: 110rem;
 
+   }
+
+
+}

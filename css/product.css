@@ -232,7 +232,7 @@ body{
 
 
 /* media query1---------- */
-@media(max-width: 300px){
+@media screen and (max-width: 300px){
   .left{
     display: none;
   
@@ -290,3 +290,72 @@ body{
 
 }
 
+/* media query1---------- */
+@media(max-width: 600px){
+  .left{
+    display: none;
+  
+  }
+  .container{
+    padding-left: 0px;
+    padding: 0rem 0rem;
+    margin-left: 0px;
+    width: 30rem;
+  }
+  .right1{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .for-dis{
+    padding-left: 0;
+    margin-left: 0;
+
+  }
+  .dicrip-block{
+    width: 29rem;
+    margin-left: 0;
+  }
+  .diss1-imgs1{
+    width: 26rem;
+    
+  }
+  .pl-1 div iframe{
+    width: 25rem;
+  }
+  .discription-ul{
+    display: flex;
+    font-size: 10px;
+  }
+  .font11-a1{
+    font-size: 10px;
+  }
+  .discription-ul{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+  } 
+  .discribe-item{
+    padding: 0rem 0rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+
+  }
+
+}
+
+
+@media (min-width:602px) and (max-width: 1300px){
+
+    .left{
+    display: none;
+  
+  }
+
+
+}
