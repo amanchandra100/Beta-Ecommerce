@@ -8,8 +8,9 @@
 }
 html{
     box-sizing: border-box;
-    width: 100vw;
+    max-width: 200em;
     /* height: 100vh; */
+    /* background-color: aquamarine; */
 }
 body{
     display: flex;
@@ -271,6 +272,7 @@ img {vertical-align: middle;}
 }
 
 .mySlides1{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -637,7 +639,7 @@ img {vertical-align: middle;}
 
 
 /* media query1---------- */
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 350px){
     *{ 
         
         padding: 0;
@@ -996,7 +998,7 @@ footer{
 
 
 /* media query1---------- */
-@media only screen and (min-width:301px) and (max-width: 600px){
+@media only screen and (min-width:351px) and (max-width: 600px){
     *{ 
         
         padding: 0;
@@ -1011,7 +1013,7 @@ footer{
     }
     body{
        
-        /* width: 586px; */
+        width: fit-content;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -1025,13 +1027,13 @@ footer{
         margin-left: 0px;
         margin-right: 0rem;
         overflow-x: hidden;
-        /* border: 5px yellow solid;
-        background-color: yellow; */
+        /* border: 5px yellow solid;*/
+        /* background-color: yellow;  */
     }
-    .main{
+    /* .main{
         padding-left: 10rem;
         padding-right: 2rem;
-    }
+    } */
     .forul{
         display: flex;
         flex-direction: column;
@@ -1050,11 +1052,11 @@ footer{
         flex-direction: column;
         padding: 0.5rem 0.5rem;  
           /* font-size: 1.1rem; */
-        width: 35rem;
+        width: 30rem;
         height: 7rem;
         /* left: 0; */
         border-radius: 5px ;
-        margin-left: 9rem;
+        /* margin-left: 9rem; */
         /* background-color: pink; */
         /* padding-left: 6rem; */
     }
@@ -1269,9 +1271,9 @@ footer{
         height: 50rem;
         
     }
-    .img112{
+    /* .img112{
         width: auto;
-    }
+    } */
     .foot{
         flex-direction: column;
         width: 30rem;
@@ -1339,9 +1341,9 @@ footer{
     }
    
     .end{
-       width: 35rem;
+       width: 30rem;
        /* padding: 1rem; */
-       margin-left: 9rem;
+       /* margin-left: 9rem; */
        font-size: 0.8rem;
        /* padding-left: 2rem; */
     }
@@ -1368,6 +1370,7 @@ footer{
        
         /* border: 5px green solid; */
     }
+
     body{
        
         width: fit-content;
@@ -1397,7 +1400,7 @@ footer{
     padding-right: 2rem; */
 }
     .nav1{
-        width: 100%;
+        width: 110rem;
     }
     .robo-ser{
         width: 90rem;

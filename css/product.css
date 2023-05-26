@@ -309,13 +309,18 @@ body{
   }
   .header{
     /* background-color: yellow; */
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
   }
   .container{
     padding-left: 0px;
     /* padding: 0rem 0rem; */
-    margin-left: 9rem;
+    /* margin-left: 9rem; */
     width: 30rem;
+  }
+  .formobile{
+    padding-left: 0%;
+    width: 31rem;
+    background-color: aqua;
   }
   .right1{
     display: flex;
@@ -361,9 +366,9 @@ body{
     margin-left: 0rem;
 
   }
-  .foooter{
+  /* .foooter{
     margin-left: 10rem;
-  }
+  } */
 
 }
 
