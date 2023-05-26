@@ -1,0 +1,173 @@
+.Product1.html{
+/* border: 2px solid firebrick; */
+}
+.innerlink{
+/* border: 2px solid rgb(255, 6, 6); */
+
+padding: 10px;
+}
+.innerlink ul{
+display: flex;
+}
+.innerlink li{
+    list-style: none;
+    margin-inline-start: 2rem;
+    font-size: 18px;
+}
+.Box{
+    /* border: 2px solid fuchsia; */
+    padding: 2rem;
+    
+}
+.loginBox , .SignupBox{
+/* border: 2px solid rgb(58, 178, 34); */
+ display: flex;
+ background: rgb(246, 246, 246);
+ justify-content: center;
+ height: 45vh;
+}
+.loginLeft , .SignupLeft{
+    /* border: 2px solid rgb(14, 67, 3); */
+   padding: 3rem;
+   width: 40%;
+   /* padding-top: 2rem; */
+}
+.loginh2{
+    font-weight: 100;
+}
+.loginh5{
+    margin: 10px;
+}
+.inline{
+            max-width:400px;
+            margin:auto;
+        }
+        .input-icons i {
+            position: absolute;
+        }
+          
+        .input-icons {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+          
+        .icon {
+            padding: 10px;
+            min-width: 40px;
+        }
+          
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 3px;
+        }
+ 
+.vertical {
+      /* border-left: 2px solid blue; */
+      height: auto;
+      position:absolute;
+      left: 50%;
+    }
+.loginRight ,.SignupRight{
+        /* border: 2px solid rgb(218, 229, 5); */
+   width: 40%;
+
+   padding: 3rem;
+   /* padding-top: 2rem; */
+   padding-left: 10px;
+   justify-content: start;
+}
+.loginRight h2{
+    font-weight: 200;
+}
+.loginRight form{
+    margin: 1rem;
+}
+.loginRight input{
+    text-align:center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px gainsboro;
+    margin-bottom: 1rem;
+}
+.loginRight i{
+    /* background: rgb(239, 239, 239); */
+    font-size: medium;
+    /* margin: 5px; */
+}
+.input-field{
+}
+#signupButton , #OtpButton ,#LoginButton,#GetOtp{
+    margin: 1rem;
+    padding: 10px;
+    color: white;
+    background: rgb(70, 70, 143);
+    border-radius: 20px;
+    border: none;
+    width: 10rem;
+    font-size: 16px;
+}
+
+#signupButton:hover{
+    background-color: rgb(45, 106, 167);
+}
+#OtpButton:hover{
+    background-color: rgb(45, 106, 167);
+}
+#LoginButton:hover{
+    background-color: rgb(45, 106, 167);
+}
+#forgetpwd{
+    text-decoration: none;
+}
+
+#forgetpwd:hover{
+text-decoration: underline;
+}
+#forgetpwdBtn{
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    color: rgb(28, 17, 149);
+}
+#forgetpwdBtn:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+    
+.innerlink ul{
+display: block;
+
+}
+.loginBox{
+    display: block;
+}
+.Box{
+    width: 100%;
+    padding: 0;
+    display: block;
+}
+.loginLeft{
+    width: 100%;
+    padding: 1rem;
+    /* margin-bottom: 1rem; */
+}
+.loginRight{
+    width: 100%;
+    padding: 1rem;
+}
+.loginBox , .SignupBox{
+/* border: 2px solid rgb(58, 178, 34); */
+ display: block;
+ justify-content: center;
+ height: auto;
+ width: 100%;
+ padding: 1rem;
+}
+.loginLeft , .SignupLeft{
+    width: 100%;
+    padding: 1rem;
+}
+}

@@ -1,0 +1,361 @@
+*{
+    font-family:Inter,"Open Sans","HelveticaNeue-Light";
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+.left{
+    width: 17.6rem;
+    height: 40rem;
+    border: 1px gray solid;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    /* box-sizing: border-box; */
+    
+    /* background-color: blue; */
+}
+.header{
+    box-shadow: 0px 10px 10px -10px gray;
+}
+.items{
+    box-sizing: border-box;
+    /* height: 100%; */
+    justify-content: space-between;
+    /* background-color: brown; */
+    
+}
+.right{
+    width: 68rem;
+}
+.right1{
+    width: 68rem;
+
+    /* background-color: red; */
+
+}
+
+.prod-img{
+    width: 27rem;
+    height: 27rem;
+}
+
+.for-dis{
+    /* width: 10rem; */
+    /* height: 20rem; */
+    /* background-color: aqua; */
+    padding-left: 3rem ;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction:column;
+    
+}
+/* .for-img{
+    /* background-color: blue; */
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding-top: 0.6rem; */
+    /* align-items: center; */
+/* } */
+.item-name{
+    font-size: 25px;
+    /* font-family: "Inter","Open Sans","HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; 
+    */
+    /* font-family: Inter,"Open Sans","HelveticaNeue-Light"; */
+}
+/* .item-dis-ol{
+    
+} */
+.count{
+    font-size: .857em;
+    color: #aaa;
+}
+.cate-item-li{
+    border-top: 1px solid #ddd;
+}
+
+.discribe-item{
+    /* height: 100%; */
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+
+/* image slider............................... */
+
+
+.for-img {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    flex-direction: column;
+    width: 30rem;
+    /* background-color: aqua; */
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+/* dicription-------------------------------------------------------- */
+
+.discription-ul{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.discription-a:hover{
+    text-decoration: underline;
+}
+.dicrip-block{
+    padding: 2rem 2rem;
+    border: 1px grey solid;
+    border-radius: 1rem;
+}
+.diss1-ps{
+    text-align: justify;
+    line-height:21px;
+}
+/* .diss1-a-imgs1{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+} */
+.diss1-h4 strong{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.diss1-h5 strong{
+    font-weight: 700;
+    font-size: 20px;
+}
+.alt{
+    background-color: rgb(226, 226, 255);
+}
+
+
+
+#add_to_cart1{
+  cursor: pointer;
+  height: 3rem;
+  width: 7rem;
+  background-color: rgb(67, 67, 245);
+  color: aliceblue;
+  border-radius: 1rem;
+}
+.container{
+  padding: 0 4rem;
+}
+
+
+
+/* media query1---------- */
+@media screen and (max-width: 300px){
+  .left{
+    display: none;
+  
+  }
+  .container{
+    padding-left: 0px;
+    padding: 0rem 0rem;
+    margin-left: 0px;
+    width: 30rem;
+  }
+  .right1{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .for-dis{
+    padding-left: 0;
+    margin-left: 0;
+
+  }
+  .dicrip-block{
+    width: 29rem;
+    margin-left: 0;
+  }
+  .diss1-imgs1{
+    width: 26rem;
+    
+  }
+  .pl-1 div iframe{
+    width: 25rem;
+  }
+  .discription-ul{
+    display: flex;
+    font-size: 10px;
+  }
+  .font11-a1{
+    font-size: 10px;
+  }
+  .discription-ul{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+  } 
+  .discribe-item{
+    padding: 0rem 0rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+
+  }
+
+}
+
+/* media query1---------- */
+@media(max-width: 600px){
+  .left{
+    display: none;
+  
+  }
+  .container{
+    padding-left: 0px;
+    padding: 0rem 0rem;
+    margin-left: 0px;
+    width: 30rem;
+  }
+  .right1{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    padding: 0;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .for-dis{
+    padding-left: 0;
+    margin-left: 0;
+
+  }
+  .dicrip-block{
+    width: 29rem;
+    margin-left: 0;
+  }
+  .diss1-imgs1{
+    width: 26rem;
+    
+  }
+  .pl-1 div iframe{
+    width: 25rem;
+  }
+  .discription-ul{
+    display: flex;
+    font-size: 10px;
+  }
+  .font11-a1{
+    font-size: 10px;
+  }
+  .discription-ul{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+  } 
+  .discribe-item{
+    padding: 0rem 0rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+
+  }
+
+}
+
+
+@media (min-width:602px) and (max-width: 1300px){
+
+    .left{
+    display: none;
+  
+  }
+
+
+}
