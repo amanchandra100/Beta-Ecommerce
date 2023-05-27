@@ -234,41 +234,48 @@ body{
 
 
 /* media query1---------- */
-@media screen and (max-width: 300px){
+@media screen and (max-width: 270px){
   .left{
     display: none;
   
   }
-  .header{
-    /* background-color: yellow; */
-    margin-left: 16rem;
-  }
+  
   .container{
-   
     padding-left: 0px;
     /* padding: 0rem 0rem; */
-    margin-left: 16rem;
-    width: 30rem;
+    /* margin-left: 9rem; */
+    width: 20rem;
   }
+  .right{
+    width: 24rem;
+    /* background-color: aqua; */
+  }
+    
   .right1{
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    width: 24rem;
     padding: 0;
     padding-left: 0;
     margin-left: 0;
+    /* background-color: red; */
+    /* padding-left: 1rem; */
+  }
+  .for-img{
+    width: 20rem;
   }
   .for-dis{
     padding-left: 0;
     margin-left: 0;
 
   }
+  
   .dicrip-block{
-    width: 29rem;
+    width: 20rem;
     margin-left: 0;
   }
   .diss1-imgs1{
-    width: 26rem;
+    width: 20rem;
     
   }
   .pl-1 div iframe{
@@ -294,41 +301,39 @@ body{
     margin-left: 0rem;
 
   }
-  .foooter{
-    margin-left: 16rem;
-  }
-
+  /* .foooter{
+    margin-left: 10rem;
+  } */
 
 }
 
+
+
 /* media query1---------- */
-@media(min-width:301px) and (max-width: 600px){
+@media(min-width:279px) and (max-width: 600px){
   .left{
     display: none;
   
   }
-  .header{
-    /* background-color: yellow; */
-    /* margin-left: 10rem; */
-  }
+  
   .container{
     padding-left: 0px;
     /* padding: 0rem 0rem; */
     /* margin-left: 9rem; */
-    width: 30rem;
+    width: 24rem;
   }
-  .formobile{
-    padding-left: 0%;
-    width: 31rem;
-    background-color: aqua;
-  }
-  .right1{
+    .right1{
     display: flex;
     flex-direction: column;
-    width: 30rem;
+    width: 21rem;
     padding: 0;
-    padding-left: 0;
+    padding-left: 25px;
     margin-left: 0;
+    /* background-color: red; */
+    /* padding-left: 1rem; */
+  }
+  .for-img{
+    width: 20rem;
   }
   .for-dis{
     padding-left: 0;
@@ -336,11 +341,11 @@ body{
 
   }
   .dicrip-block{
-    width: 29rem;
+    width: 20rem;
     margin-left: 0;
   }
   .diss1-imgs1{
-    width: 26rem;
+    width: 20rem;
     
   }
   .pl-1 div iframe{
@@ -375,10 +380,71 @@ body{
 
 @media (min-width:602px) and (max-width: 1300px){
 
-    .left{
+  .left{
     display: none;
   
   }
+  
+  .container{
+    padding-left: 0px;
+    /* padding: 0rem 0rem; */
+    /* margin-left: 9rem; */
+    width: 20rem;
+  }
+    .right1{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    padding: 0;
+    padding-left: 0;
+    margin-left: 0;
+    /* background-color: red; */
+    padding-left: 1rem;
+  }
+  .for-img{
+    width: 20rem;
+  }
+  .for-dis{
+    padding-left: 0;
+    margin-left: 0;
 
+  }
+  .dicrip-block{
+    width: 22rem;
+    margin-left: 0;
+  }
+  .diss1-imgs1{
+    width: 20rem;
+    
+  }
+  .pl-1 div iframe{
+    width: 25rem;
+  }
+  .discription-ul{
+    display: flex;
+    font-size: 10px;
+  }
+  .font11-a1{
+    font-size: 10px;
+  }
+  .discription-ul{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+  } 
+  .discribe-item{
+    padding: 0rem 0rem;
+    padding-left: 0rem;
+    margin-left: 0rem;
+
+  }
+  /* .foooter{
+    margin-left: 10rem;
+  } */
 
 }
+
+
+
