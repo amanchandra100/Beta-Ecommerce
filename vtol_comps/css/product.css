@@ -7,6 +7,8 @@
 
 body{
     box-sizing: border-box;
+    zoom: normal;
+    zoom: 1;
 }
 .left{
     width: 17.6rem;
@@ -234,7 +236,7 @@ body{
 
 
 /* media query1---------- */
-@media screen and (max-width: 270px){
+@media screen and (max-width: 300px){
   .left{
     display: none;
   
@@ -247,18 +249,18 @@ body{
     width: 20rem;
   }
   .right{
-    width: 24rem;
-    background-color: aqua;
+    width: 21rem;
+    /* background-color: aqua; */
   }
     
   .right1{
     display: flex;
     flex-direction: column;
-    width: 24rem;
+    width: 20rem;
     padding: 0;
-    padding-left: 0;
+    padding-left: 35px;
     margin-left: 0;
-    background-color: red;
+    /* background-color: red; */
     /* padding-left: 1rem; */
   }
   .for-img{
@@ -275,7 +277,7 @@ body{
     margin-left: 0;
   }
   .diss1-imgs1{
-    width: 20rem;
+    width: 15rem;
     
   }
   .pl-1 div iframe{
@@ -297,7 +299,7 @@ body{
   } 
   .discribe-item{
     padding: 0rem 0rem;
-    padding-left: 0rem;
+    padding-left: 1rem;
     margin-left: 0rem;
 
   }
@@ -310,7 +312,7 @@ body{
 
 
 /* media query1---------- */
-@media(min-width:279px) and (max-width: 600px){
+@media(min-width:301px) and (max-width: 600px){
   .left{
     display: none;
   
@@ -345,7 +347,7 @@ body{
     margin-left: 0;
   }
   .diss1-imgs1{
-    width: 20rem;
+    width: 15rem;
     
   }
   .pl-1 div iframe{

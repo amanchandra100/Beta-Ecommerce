@@ -8,9 +8,7 @@
     text-decoration: none;
     color: gray;
 }
-.font{
-    font-family: Inter,"Open Sans","HelveticaNeue-Light";
-}
+
 .pl-1{
     padding-left: 1rem;
 }
@@ -79,9 +77,6 @@
 }
 
 
-.remove-ul-pt{
-    list-style-type: none;
-}
 
 
 /* display-flex justify-con-center align-it-center */
