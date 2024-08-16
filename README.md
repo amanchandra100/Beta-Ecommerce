@@ -1,0 +1,1 @@
+## This is Only Frontend Part of Ecommerce website.The main Repo is private Your can checkout the whole website by this link: <a href="https://betaecom.onrender.com/">Link</a> <br/> This website in develop in  MERN Stack  so do check out the whole website and give the genuine feedback.
